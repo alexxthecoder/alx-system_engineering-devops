@@ -1,3 +1,4 @@
+#!/bin/bash
 Working on shell redirections and special characters
 Using '>', '>>', '<' & '|' 
 sort
@@ -6,5 +7,6 @@ fmt
 grep
 pr: for page-ification
 lpr: take standard input for printing
-awk
+awk:
+/n for adding new line 
 
