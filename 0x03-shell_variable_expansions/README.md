@@ -1,2 +1,2 @@
 #!/bin/bash
-Expansion commands:
+alias [name]:'[value]'
