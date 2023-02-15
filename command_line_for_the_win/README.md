@@ -1,1 +1,1 @@
-This CMD challenge tests bash skills
+Doing the command line challenge
