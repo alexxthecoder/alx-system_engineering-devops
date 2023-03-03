@@ -1,15 +1,9 @@
-#!/bin/bash
+#!/usr/bin/env bash
+# Pings an IP address received as an argument 5 times.
 
-# Check if an argument was passed
-if [ -z "$1" ]; then
+if [ $# -eq 0 ]
+then
   echo "Usage: 5-is_the_host_on_the_network {IP_ADDRESS}"
 else
-  # Set the IP address from the first argument
-  IP=$1
-
-  # Set the number of pings to send
-  COUNT=5
-
-  # Ping the IP address and display the results
-  ping -c $COUNT $IP
+  ping -c 5 "$1"
 fi
